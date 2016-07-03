@@ -1,0 +1,96 @@
+article {
+  border-radius: 25px;
+}
+
+article h2 {
+  color: white;
+}
+
+#intro h2 {
+  color: #F24B4B;
+}
+
+#intro article {
+  padding: 10px;
+  overflow: hidden;
+  max-width: 540px;
+}
+
+#intro img:first-child {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  margin-right: 10px;
+}
+
+#intro .column {
+  max-width: 65%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+
+#intro .column img {
+  display: block;
+  max-width: 80%;
+  max-height: auto;
+  margin: 0 auto;
+}
+
+#projects {
+  background: dodgerblue;
+}
+
+#projects article {
+  width: 80%;
+}
+
+#projects article:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+#projects li {
+  background: white;
+  padding: 10px;
+  border-radius: 25px;
+  width: 33%;
+  margin: 0 auto;
+}
+
+#projects p {
+  padding: 10px 5px;
+  margin: 0;
+}
+
+#projects img {
+  display: block;
+  width: 90%;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+#projects figure {
+  display: block;
+  margin: 0 auto;
+  padding: 3px;
+  width: 100%;
+}
+
+#story {
+  padding-top: 50px;
+}
+
+#story h2 {
+  color: #3D3D3D;
+}
+
+#story article { 
+  background: white; 
+  padding: 50px 100px;
+}
+
+#skills {
+  background: #6BD6F1;
+}

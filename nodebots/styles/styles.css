@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  line-height: 26px;
+  color: #333333; }
+
+h1 {
+  font-family: 'Monda', sans-serif;
+  font-size: 66px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  line-height: 0.8;
+  text-align: center; }
+
+h2 {
+  font-family: 'Monda', sans-serif;
+  font-size: 30px;
+  margin: 40px 0; }
+
+h3 {
+  font-family: 'Monda', sans-serif;
+  font-size: 26px;
+  padding-top: 20px;
+  margin-bottom: 6px; }
+
+ul {
+  text-indent: 0;
+  padding: 0; }
+
+li {
+  margin-bottom: 9.6px; }
+
+.content {
+  margin: 0 auto;
+  padding: 0 8px;
+  width: 900px; }
+  .content p {
+    margin: 0 0 25px 0; }
+  .content a {
+    text-decoration: none;
+    color: #BB1E1E; }
+  .content img {
+    display: block;
+    margin: 0 auto; }
+  .content #equation {
+    margin: 0 158px; }
+  .content .requires-js {
+    background: grey;
+    color: white;
+    height: 450px;
+    margin-bottom: 18px; }
+    .content .requires-js p {
+      display: table;
+      text-align: center;
+      vertical-align: middle; }
+    .content .requires-js .video {
+      height: 509px; }
+  .content #workshop {
+    width: 100%; }
+
+.map {
+  display: block;
+  margin-bottom: 40px; }
+  .map img {
+    border-top: solid 2px;
+    border-bottom: solid 2px; }
+
+footer {
+  padding: 8px;
+  margin: 100px 0 0 0;
+  background: black;
+  height: 60px; }
+
+div.badges {
+  text-align: center; }
+
+.badges img {
+  width: 40px;
+  height: 40px;
+  padding: 5px; }
+
+header {
+  margin: 0 0 200px;
+  text-align: center;
+  height: 250px;
+  background: url("../assets/nodebots-day-pan-lg.jpg") no-repeat;
+  background-size: 100% auto;
+  min-width: 840px; }
+  header h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #333;
+    margin: 0.5em 0; }
+
+aside.notice * {
+  font-family: "Andale Mono", AndaleMono, Consolas, monospace; }
+
+aside {
+  position: absolute;
+  top: 176px;
+  right: 10%;
+  width: 200px;
+  height: 200px;
+  background: url("../assets/burst.png"); }
+  aside h1 {
+    margin-left: 40px;
+    margin-top: 50px;
+    margin: 50px 0 10px 40px;
+    font-size: 16px;
+    color: #F8E01E;
+    text-align: left;
+    text-size: 12px;
+    line-height: 26px; }
+  aside p {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.6em; }
+
+.nodebot {
+  display: block;
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  background-color: #F8E01E;
+  z-index: 2; }
+  .nodebot .icon {
+    position: absolute;
+    bottom: 8%;
+    right: 8%;
+    width: 45.6%;
+    height: 50%; }
+  .nodebot .icon * {
+    background-color: #2E2E2C;
+    position: relative; }
+  .nodebot .bobble {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    margin: 3px auto -3px auto; }
+  .nodebot .antenna {
+    width: 8px;
+    height: 16px;
+    border-bottom-left-radius: 80% 30%;
+    border-bottom-right-radius: 80% 30%;
+    margin: 0 auto 4px auto; }
+  .nodebot .head {
+    width: 114px;
+    height: 60px;
+    border-top-right-radius: 15% 25%;
+    border-top-left-radius: 15% 25%; }
+  .nodebot .eye {
+    width: 20px;
+    height: 20px;
+    margin: 0 18.2%;
+    border-radius: 100%;
+    background-color: #F8E01E;
+    display: inline-block;
+    position: absolute;
+    top: 26%;
+    left: 0px; }
+  .nodebot .icon .right {
+    right: 0px;
+    left: initial; }
+  .nodebot .neck {
+    border-radius: 20px;
+    width: 69%;
+    height: 6%;
+    margin: 4px auto 0; }
+  .nodebot .neck + .neck {
+    width: 48%; }
+
+/*# sourceMappingURL=styles.css.map */

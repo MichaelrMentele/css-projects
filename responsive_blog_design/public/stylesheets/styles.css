@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+  color: #3D3D3D;
+}
+
+h1 {
+  font: normal 68px Helvetica;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font: normal 36px Helvetica;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font: normal 20px Arial;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px darkgrey solid;
+}
+
+article { 
+  padding: 10px;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+.column {
+  display: inline-block;
+}
+
+p {
+  text-align: justify;
+  margin: 0 0 20px 0;
+}
+
+hr {
+  margin: 5px auto;
+  width: 20%;
+  background: darkgrey;
+}

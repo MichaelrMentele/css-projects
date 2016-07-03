@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: yellow;
+  font: normal 16px Helvetica, Arial, sans-serif;
+  color: darkgrey;
+  padding: 0;
+  margin: 0;
+}
+
+header, main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background: dodgerblue;
+  padding: 30px 0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  color: white;
+  padding: 0 25px;
+  font: bold 2.4em
+}
+
+main {
+  background: lightgrey;
+  width: 900px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+main:after {
+  content:"";
+  clear: both;
+  display: block;
+
+}
+main h2 {
+  padding-bottom: 25px;
+  font-size: 2em;
+  color: black;
+}
+
+main h3 {
+  padding: 0 0 5px 0;
+  font-size: 1.1em;
+  color: black;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  width: 23%;
+  margin: 0 0 2% 2%;
+  background: white;
+  padding: 15px;
+}
+
+li:nth-of-type(4n+1) {
+  margin-left: 0;
+}
+
+img {
+  width: auto;
+  display: block;
+  height: 140px;
+  margin: 0 auto;
+}
+
+figure {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 160px;
+}
+
+input[type="checkbox"] { display: none; }
+input:checked + figure img {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  width: 400px;
+  height: auto;
+  margin: 0 0 0 -200px;
+  z-index: 2;
+}
+input:checked + figure:before {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content:"";
+  background: rgba(0, 0, 0, .4);
+}

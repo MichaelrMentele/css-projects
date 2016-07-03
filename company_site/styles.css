@@ -1,0 +1,221 @@
+body {
+    text-align: center;
+    color: #45494D;
+    font-size: 20px;
+    box-sizing: border-box;
+    background: url("images/bg_body.gif");
+}
+
+header {
+    padding-top: 75px;
+    height: 508px;
+    box-sizing: border-box;
+}
+
+header h1 a {
+    display: inline-block;
+}
+
+h1 {
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    padding-bottom: 20px;
+    color: #3E59B2;
+    font-size: 24px;
+}
+
+nav {
+    padding: 25px 0 60px 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline;
+    padding: 0 48px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #CACACA;
+}
+
+nav a.active {
+    color: #6DB9FF;
+}
+
+.column {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 100%;
+    padding-top: 100px;
+    background: #fff;
+}
+
+article {
+    
+}
+
+article p {
+    padding: 0 110px 100px 110px;
+    text-align: justify;
+}
+
+footer {
+    background: #E7E7E7;
+    padding: 75px 0;
+}
+
+footer p {
+    padding-bottom: 40px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 100px 40px 100px;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+footer a {
+    display: block;
+    width: 46px;
+    height: 46px;
+    overflow: hidden;
+    background: transparent url("images/icons_social-media.png") 0 0 no-repeat;
+}
+
+#twitter {
+    
+}
+
+#facebook {
+    background-position: 0 -46px;
+}
+
+#mail {
+    background-position: 0 -92px;
+}
+
+#instagram {
+    background-position: 0 -138px;
+}
+
+/*PROJECTS*/
+#app {
+    width: 100%;
+    padding-bottom: 40px
+}
+
+#projects article + article {
+    padding-top: 60px;
+    border-top: 1px solid #cccccc;
+    height: 100%;
+}
+
+/*TEAM*/
+#team article {
+    padding-bottom: 100px;
+}
+
+#team li {
+    display: inline-block;
+    color: #3e59b2;
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+@media (max-width: 875px) {
+    #team li {
+        width: 49%;
+        padding: 0 0 30px 0;
+    }
+    #team li img {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding-top: 40px;
+        height: 400px;
+    }
+
+    #team li {
+        width: 49%;
+        padding: 0 0 30px 0;
+    }
+    #team li img {
+        margin: 0 auto;
+    }
+
+    header h1 {
+        height: 182px;
+        width: 223px;
+        margin: 0 auto;
+    }
+
+    header img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    header nav {
+        padding-bottom: 10px;
+    }
+
+    main {
+        padding-top: 70px;
+    }
+
+    article p {
+        text-align: justify;
+        padding: 0 40px 50px 40px;
+    }
+
+    footer {
+        max-width: 100%;
+        padding: 35px;
+    }
+
+    footer li {
+        padding: 32px 0;
+    }
+
+@media (max-width: 480px) {
+    body {
+        min-width: 450px;
+        max-width: 480px
+    }
+
+    header h1 {
+        display: inline-block;
+        vertical-align: center;
+    }
+
+    nav {
+        text-align: right;
+        display: inline-block;
+        max-width: 49%;
+        padding: 0px;
+        height: 100%;
+    }
+
+    nav li {
+        display: block;
+        padding: 10px;
+        padding-left: 40px;
+    }
+}
+
+
+
