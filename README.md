@@ -2,7 +2,7 @@ This is a collection of CSS projects demonstrating the ability to create 'pixel 
 
 # Box Model Project
 Visual demo of CSS essentials.
-![preview](https://github.com/MichaelrMentele/css-projects/blob/master/box_model_demo/box_model_preview.png)
+![preview](https://github.com/MichaelrMentele/css-projects/blob/master/box_model_demo/box_model_preview.png =300x100)
 # Company Site
 A pixel-perfect responsive website built from design files.
 ![preview]()
