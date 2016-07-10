@@ -4,7 +4,8 @@ This is a collection of CSS projects demonstrating the ability to create 'pixel 
 This is a recreation of a JS conference frontpage. The CSS is my recreation of their styling using SASS. The HTML is cloned.
 * SASS
 * Robot head created only using CSS
-![preview](https://github.com/MichaelrMentele/css-projects/blob/master/nodebots/nodebots_preview.png)
+
+> ![preview](https://github.com/MichaelrMentele/css-projects/blob/master/nodebots/nodebots_preview.png)
 # Todos
 A 'Pixel Perfect' recreation of a photoshop design file 
 * Responsive hamburger
