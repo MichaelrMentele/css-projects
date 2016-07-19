@@ -1,0 +1,41 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center; }
+
+header {
+  margin: 56px 0; }
+  header img {
+    margin: 0 auto;
+    width: 200px;
+    height: 220px;
+    display: block; }
+
+content h3 {
+  font: 26px "helvetica neue", helvetica, arial, sans-serif;
+  line-height: 33px;
+  text-align: center;
+  text-weight: 800;
+  margin-bottom: 30px; }
+content a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 2px solid #E2AD40; }
+content a:hover {
+  color: grey;
+  border-bottom: 2px solid grey; }
+content p {
+  font: 16px 'proxima-nova', 'helvetica neue', helvetica;
+  line-height: 1.5em; }
+
+footer {
+  margin: 60px 0 30px 0; }
+  footer a {
+    border: none; }
+  footer img {
+    opacity: 0.5;
+    width: 50px;
+    height: 30px;
+    border: none; }
+
+/*# sourceMappingURL=styles.css.map */

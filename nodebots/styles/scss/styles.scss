@@ -1,0 +1,99 @@
+
+
+body {
+	margin: 0;
+	font-family: Helvetica, sans-serif;
+	line-height: 26px;
+	color: #333333;
+}
+
+h1 {
+	font-family: 'Monda', sans-serif;
+	font-size: 66px;
+	font-weight: 400;
+	margin-bottom: 30px;
+	margin-top: 80px;
+	line-height: 0.8;
+	text-align: center;
+}
+
+h2	{
+	font-family: 'Monda', sans-serif;
+	font-size: 30px;
+	margin: 40px 0;
+}
+
+h3 {
+	font-family: 'Monda', sans-serif;
+	font-size: 26px;
+	padding-top: 20px;
+	margin-bottom: 6px;
+
+}
+
+ul {
+	text-indent: 0;
+	padding: 0;
+}
+li {
+	margin-bottom: 9.6px;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 0 8px;
+	width: 900px;
+
+	p {
+		margin: 0 0 25px 0;
+	}
+
+	a {
+		text-decoration: none;
+		color: #BB1E1E;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#equation {
+		margin: 0 158px;
+	}
+
+	.requires-js {
+
+		background: grey;
+		color: white;
+		height: 450px;
+		margin-bottom: 18px;
+
+		p {
+			display: table;
+			text-align: center;
+			vertical-align: middle;
+		}
+
+		.video {
+			height: 509px;
+		}
+	}
+
+	#workshop {
+		width: 100%;
+	}
+}
+
+.map {
+	display: block;
+	margin-bottom: 40px;
+
+	img {
+		border-top: solid 2px;
+		border-bottom: solid 2px;
+	}
+}
+
+@import "footer";
+@import "header";

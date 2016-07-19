@@ -1,0 +1,45 @@
+header, footer {
+  background: #3D3D3D;
+  width: 100%;
+  padding: 20px;
+}
+
+nav {
+  display: block;
+  padding: 5px 0;
+}
+
+nav a {
+  color: white;
+  font-size: 20px;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main {
+  margin: 0 auto;
+  width: 100%;
+}
+
+article {
+  width: 60%;
+  margin: 0 auto 50px auto;
+}
+
+footer h2, footer h3 {
+  margin: 0;
+  padding: 0;
+}
+
+footer h3 {
+  padding-bottom: 20px;
+}

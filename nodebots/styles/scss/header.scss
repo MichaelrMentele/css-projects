@@ -1,0 +1,125 @@
+header {
+	margin: 0 0 200px;
+	text-align: center;
+	height: 250px;
+	background: url("../assets/nodebots-day-pan-lg.jpg") no-repeat;
+	background-size: 100% auto;
+	min-width: 840px;
+
+	h2	{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #333;
+    margin: 0.5em 0;
+}
+}
+
+aside.notice {
+	* {
+		font-family: "Andale Mono", AndaleMono, Consolas, monospace;	
+	}
+}
+
+aside {
+	position: absolute;
+	top: 176px;
+	right: 10%;
+	width: 200px;
+	height: 200px;
+	background: url("../assets/burst.png");
+
+	h1 {
+		margin-left: 40px;
+		margin-top: 50px;
+		margin: 50px 0 10px 40px;
+		font-size: 16px;
+		color: #F8E01E;
+		text-align: left;
+		text-size: 12px;
+		line-height: 26px;
+	}
+
+	p {
+		margin-top: 0;
+		color: white;
+		text-align: center;
+		font-size: 14px;
+		line-height: 1.6em;
+	}
+	
+}
+
+.nodebot {
+	display: block;
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	background-color: #F8E01E;
+	z-index: 2;
+
+	.icon {
+		position: absolute;
+	    bottom: 8%;
+	    right: 8%;
+	    width: 45.6%;
+	    height: 50%;
+	}
+
+	.icon * {
+		background-color: #2E2E2C;
+		position: relative;
+	}
+
+	.bobble {
+		width: 16px;
+		height: 16px;
+		border-radius: 100%;
+		margin: 3px auto -3px auto;
+	}
+
+	.antenna {
+		width: 8px;
+		height: 16px;
+		border-bottom-left-radius: 80% 30%;
+    	border-bottom-right-radius: 80% 30%;
+    	margin: 0 auto 4px auto;
+	}
+
+	.head {
+		width: 114px;
+		height: 60px;
+		border-top-right-radius: 15% 25%;
+		border-top-left-radius: 15% 25%;
+	}
+
+	.eye {
+		width: 20px;
+	    height: 20px;
+	    margin: 0 18.2%;
+	    border-radius: 100%;
+	    background-color: #F8E01E;
+	    display: inline-block;
+	    position: absolute;
+	    top: 26%;
+	    left: 0px;
+	}
+
+	.icon .right {
+		right: 0px;
+		left: initial;
+	}
+
+	.neck {
+		border-radius: 20px;
+		width: 69%;
+		height: 6%;
+		margin: 4px auto 0;
+	}
+
+	.neck + .neck {
+		width: 48%;
+	}
+}
