@@ -1,0 +1,41 @@
+header {
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+
+header h1 {
+	background: dodgerblue;
+	padding: 20px;
+	font-size: 4em;
+}
+
+h1 {
+	background: skyblue;
+	display: block;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+}
+
+h2 {color: skyblue;}
+
+section {
+	margin-bottom: 80px;
+}
+
+section .col-4 p {
+	height: 200px;
+	overflow: hidden;	
+}
+
+section .col-6 p {
+	height: 100px;
+	overflow: hidden;
+}
+
+img {
+	max-width: 300px;
+	width: 100%;
+}

@@ -3,10 +3,13 @@
 <head>
 	<title>CSS Projects</title>
 	<link rel="stylesheet" type="text/css" href="simple-grid.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <main>
-	<header></header>
+	<header>
+		<h1>CSS Projects</h1>	
+	</header>
 	<div class="container">
 
 		<section>
@@ -14,56 +17,60 @@
 		</section>
 
 		<section>
-			<h1>HTML/CSS Fundamentals</h1>
-			<h2>Demo</h2>
-			<p>A demonstration of the fundamentals of HTML/CSS such as positioning, display, and more.</p>
-			<a href="box_model_demo/box_model_project.html"><img src="box_model_demo/box_model_preview.png"></a>
+			<h1 class="col-12">HTML/CSS Fundamentals</h1>
+			<div class="col-12">
+				<h2>Demo</h2>
+				<p>A demonstration of the fundamentals of HTML/CSS such as positioning, display, and more.</p>
+				<a href="box_model_demo/box_model_project.html"><img src="box_model_demo/box_model_preview.png"></a>
+			</div>
 		</section>
 
 		<section>
-			<h1>Pixel Perfect & Responsive</h1>
+			
 			<div class="row">
 				
-
+				<h1 class="col-12">Pixel Perfect & Responsive</h1>
 				<div class="col-4">
 					<h2>Work Sample</h2>
-					<p>Pixel perfect recreation from PSD file. Has responsive hamburger breakpoint. Custom checkboxes in CSS and more.</p>
+					<p>Pixel perfect recreation of PSD file built with SASS. Responsive hamburger breakpoint, custom checkboxes, and more.</p>
 					<a href="todos/todos.html"><img src="todos/todos_preview.png"></a>
+				</div>
+			
+				<div class="col-4">
+					<h2>Company Site</h2>
+					<p>A sample company site with mutliple responsive breakpoints and pages.</p>
+					<a href="company_site/index.html"><img src="company_site/space_design_preview.png"></a>
 				</div>
 
 				<div class="col-4">
 					<h2>Nutrition Facts</h2>
-					<p>Pixel perfect recreation of nutrition facts label.</p>
+					<p>Pixel perfect recreation of a nutrition facts label.</p>
 					<a href="nutrition_facts/nutrition_facts.html"><img src="nutrition_facts/nutrition_preview.png"></a>
-				</div>
-			
-				<div class="col-4">
-					<h2>Sample Company Site</h2>
-					<p>Responsive breakpoints.</p>
-					<a href="company_site/index.html"><img src="company_site/space_design_preview.png"></a>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-4">
 					<h2>Sample Gallery</h2>
-					<p>Fluid resizing.</p>
+					<p>Sample of fluid resizing of a gallery of images.</p>
+					<div>
 					<a href="fluid_gallery/gallery.html"><img src="fluid_gallery/fluid_gallery_preview.png"></a>
+					</div>
 				</div>
 
 				<div class="col-4">
 					<h2>Sample Catalog</h2>
-					<p>Collection of images with CSS Modal.</p>
+					<p>Demonstration of a CSS modal.</p>
 					<a href="web_store_catalog/web_store.html"><img src="web_store_catalog/web_catalog_preview.png"></a>
 				</div>
 			</div>
 		</section>
 
 		<section class="row">
-			<h1>In The Wild: CSS/SASS Clones</h1>
+			<h1 class="col-12">In The Wild: Clones</h1>
 			<div class="col-6">
 				<h2>Nodebots</h2>
-				<p>This is a static CSS clone of an older version of <a href="https://nodebots.io">NodeBots</a> main page. Has custom CSS robot head drawing.</p>
+				<p>This is a static SASS clone of an older version of <a href="https://nodebots.io">NodeBots</a> main page. Has custom CSS robot head drawing.</p>
 				<a href="nodebots/nodebots.html"><img src="nodebots/nodebots_preview.png"></a>
 			</div>
 
